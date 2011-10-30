@@ -1,0 +1,22 @@
+--- 
+title: Another Post
+date: 30/10/2011
+
+This is just to test updates from another machine :)
+
+
+
+    def itWorks():
+	return True
+
+But then.....
+
+Need to add the repo (duh!)
+
+    git remote add heroku git@heroku.com:sysprint.git
+    git push heroku master
+
+That works :)
+
+
+
