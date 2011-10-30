@@ -5,18 +5,33 @@
 	<link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/github.min.css">	
 	<link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title><%= title %></title>
+	<title>
+		<% if @path == 'index' %>
+			    //SYSPRINT : Who said mainframers didn't do cool stuff?
+		<% elsif @path.split('/').compact.length == 4 %>
+			    <%= title %> - //SYSPRINT
+		<% else %>
+			    <%= @path.capitalize.gsub(/[-]/, ' ') %> - //SYSPRINT
+		<% end %>
+	</title>
   </head>
   <body>
 	<script src="http://yandex.st/highlightjs/6.1/highlight.min.js"></script>
 	<script type="text/javascript">
 		    hljs.initHighlightingOnLoad();
-	</script>
-   	<section>
+		</script>
+		<h1>//<a href="http://sysprint.heroku.com">SYSPRINT</a> DD SYSOUT=*<br /></h1>
+	<br />
+	<br />	
+	<section>
       <%= yield %> 
     </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+	<footer>
+	This blog is proudly hosted in a WebDyno on Heroku! Being a Mainframer I'm kidna find of Dynos (or Dinos').
+	I know that being a Mainframer I should not be messing about with things like <a href="http://git-scm.com">git</a>,
+	but I do :). Gueass what, this blog is managed with it aswell :)
+
+      It's powered by <a href="http://cloudhead.io/toto">toto</a> and it's frigging awesome!
     </footer>
   </body>
 </html>

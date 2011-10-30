@@ -1,9 +1,8 @@
 <section id="articles">
   <% for article in articles[0...3] %>
     <article class="post">
-      <header>
+      <header class='post-title'>
         <h1><a href="<%= article.path %>"><%= article.title %></a></h1>
-        <span class="date"><%= article.date %></span>
       </header>
 
       <section class="content">

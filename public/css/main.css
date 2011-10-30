@@ -108,3 +108,23 @@ body > footer {
   font-size: 18px;
   color: #888;
 }
+.post-title {
+		padding: 5px 10px;
+		margin: 10px;
+		background: #ad1924;
+		color: #fff;
+		font-size: 21px;
+		line-height: 1.3em;
+		border: 2px dashed #fff;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-box-shadow: 0 0 0 4px #ad1924, 2px 1px 4px 4px rgba(10,10,0,.5);
+		-webkit-box-shadow: 0 0 0 4px #ad1924, 2px 1px 4px 4px rgba(10,10,0,.5);
+		box-shadow: 0 0 0 4px #ad1924, 2px 1px 6px 4px rgba(10,10,0,.5);
+		text-shadow: -1px -1px #901924;
+		width: 100%;
+	}
+.post-title h1 a{
+	color: #fff;
+}

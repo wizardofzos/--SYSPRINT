@@ -1,0 +1,28 @@
+--- 
+title: Things to come
+date: 30/10/2011
+
+Whoa there! Looks like you found my hide-out here on heroku.
+Congratulations! For the time being I most probably will be experimenting locally with this uber-awesome weblog thinggy called 'toto'.
+If you want to host your own weblog on heroku hop on over to <http://cloudhead.io/toto> and get yourself up and running in under 10 seconds.
+
+Well that's assuming you got some prerequisites running, but after reading the basic install guide on their website you'll soon catch te drift.
+
+Basically all you do is :
+
+    git clone git://github.com/cloudhead/dorothy.git myblog
+    cd myblog
+    heroku create myblog
+    git push heroku master
+
+Is that is? Yeah that's it. Well after that you go into the whole thing of changing the theme to your liking.
+I'll start doing that too. Or as you will discover once you 'roll your own' I've already applied some tweaking.
+
+But that's not what this site is about.
+ It's a site about Awesomeness & The Mainframe.
+
+ eeek!
+
+ That can't be right :)
+
+ Stay tuned and find out!
