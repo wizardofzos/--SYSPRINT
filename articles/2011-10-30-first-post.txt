@@ -15,7 +15,10 @@ version control on my blog aswell.
 
 Up next : 
 
-> Alter the theme
+1. Alter the theme
+1. Enable _Disqus_ commenting #done#
+1. Change title for main page (so its not app)
+1. ....
 
 You'll be reading more here soon :)
 
