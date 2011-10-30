@@ -11,4 +11,12 @@ This is just to test updates from another machine :)
 
 But then.....
 
+Need to add the repo (duh!)
+
+    git remote add heroku git@heroku.com:sysprint.git
+    git push heroku master
+
+That works :)
+
+
 
