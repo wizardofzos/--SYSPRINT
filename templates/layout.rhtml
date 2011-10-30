@@ -2,12 +2,17 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+	<link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/github.min.css">	
+	<link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <title><%= title %></title>
   </head>
   <body>
-    <section>
+	<script src="http://yandex.st/highlightjs/6.1/highlight.min.js"></script>
+	<script type="text/javascript">
+		    hljs.initHighlightingOnLoad();
+	</script>
+   	<section>
       <%= yield %> 
     </section>
     <footer>
