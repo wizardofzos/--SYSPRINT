@@ -1,0 +1,22 @@
+title: first post
+author: Henri Kuiper
+date: 2011/10/30
+
+That's just great. Nothing more than the following commands to set up this here blog.
+
+    git clone git://github.com/cloudhead/dorothy.git sysprint
+    cd sysprint
+    heroku create sysprint
+    git push heroku master
+
+And all of a sudden _Bob was my Uncle_. From now on I can manage my blog via 
+the raw vim interface, whilst using git to push it to heroku. Giving me free
+version control on my blog aswell.
+
+Up next : 
+
+> Alter the theme
+
+You'll be reading more here soon :)
+
+
