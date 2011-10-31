@@ -7,27 +7,6 @@ These reduce the number of keystrokes I have to do to mess up my git-repos :)
 
 I've stored a little .sh over at <https://github.com/wizardofzos/Git-up> so I can set these at any of the machines I am using git on.
 
-For completeness sake they are listed here aswell:
+This post will most probably dissapear in the near future :)
 
-	alias.br=branch -a
-	alias.ci=commit
-	alias.co=checkout
-	alias.st=status -s -b
-	alias.praise=blame
-	alias.x=!gitx
-	alias.l=log --pretty=format:"%h %s (%an, %cr)"
-	alias.tree=log --graph "--pretty=format:%C(yellow bold)%h%Creset by %C(red)%an%Creset (%ar)%C(cyan bold)%d%Creset%n%s%n%b"
-	alias.ta=!git tree --all
-	alias.tas=log --graph "--pretty=format:%C(yellow bold)%h%Creset by %C(red)%an%Creset (%ar)%C(cyan bold)%d%Creset%n%s%n%b" --all --not git-it
-	alias.funcdiff=!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp1 && git show \"\$1:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp2 && git diff .tmp1 .tmp2"
-	alias.idiff=diff --cached
-	alias.dc=diff --cached
-	alias.su=submodule update
-	alias.si=submodule init
-	alias.di=diff
-	alias.kick=push
-	alias.incoming=!git fetch -q github develop && git log HEAD..FETCH_HEAD
-	alias.outgoing=!git fetch -q github develop && git log FETCH_HEAD..HEAD
-	alias.cp=cherry-pick
-	alias.last=!git show | head -n1 | awk "{print \$2}"
-	alias.clean-orig=!find . -name '*.orig' -exec rm {} \;
+
