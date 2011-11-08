@@ -1,0 +1,42 @@
+--- 
+title: Installing RD4z on Ubuntu 64
+date: 08/11/2011
+tags: RD4z, Ubuntu, 32bit
+
+Rational Developer for System z. Something you need to buy at IBM if
+you want to run "Unit Test".
+
+Seeing as I like Unit Tests a lot, you can understand my love for RDzUT :)
+
+It's basically a legal, supported Hercules running legal z/OS 1.12 code and
+a lot of subsystems. We're talking WebSphere, CICS, DB2 and the such :)
+
+Uber to say the least.
+
+So before I dove into installing the UnitTest Feature it seemed all but fair 
+to install the Ration Developer first.
+
+As per IBM's stated prereqs one should install this on RHEL, SLED or Windows.
+
+Windows was never an option, and I've tried SLED, however this SLED would just
+not let me use the wireless in my 'inst'-machine (an HP dv7-1070ed)
+
+So I've decided to install it on Ubuntu 64. (version 11.02).
+
+Guess what? It totally works :)
+
+There's two things to keep in mind however :
+
+1. IBM Installation Manager *needs* 32bit libraries
+2. Rational Developer needs the 32bit version of _libstdc++.so.5_
+
+So get yourself a clean install of Ubuntu64, or use your current one if you wish.
+
+Before even inserting your disks issue these two commands and Bob will be your Uncle.
+
+    sudo apt-get install ia32-libs
+    sudo ln -s /usr/lib32/libstdc++.so.5 /usr/lib/libstdc++.so.5
+
+Stay tuned for more awesomness :)
+
+
