@@ -11,8 +11,8 @@ Anyway:
     ln -s '$SYSSYMA/tmp/test-D&YYMMDD.-T&HHMMSS..txt' test
     touch test
     ls -l test*
-    lrwxrexrwx   1  IBMUSER  SYS1             44 Nov 17 14:49 test -> $SYSSYMA/tmp/test-D&YYDDMM.-T&HHMMSS..txt
-    -rw-r-----   1  IBMUSER  SYS1              0 Nov 17 14:51 test-D111117-T135004.txt
+    IBMUSER  SYS1     44 Nov 17 14:49 test -> $SYSSYMA/tmp/test-D&YYDDMM.-T&HHMMSS..txt
+    IBMUSER  SYS1      0 Nov 17 14:51 test-D111117-T135004.txt
 
 
 ### Question 1:
