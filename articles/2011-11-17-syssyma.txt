@@ -1,0 +1,32 @@
+--- 
+title: SYSSYMA
+date: 17/11/2011
+
+Pop Quiz :  In order to answer this, log on with your favorite telnet client and
+connect to a USS environment (I just heard we cannot use this term).
+
+Anyway:
+
+    cd /tmp
+    ln -s '$SYSSYMA/tmp/test-D&YYMMDD.-T&HHMMSS..txt' test
+    touch test
+    ls -l test*
+    lrwxrexrwx   1  IBMUSER  SYS1             44 Nov 17 14:49 test -> $SYSSYMA/tmp/test-D&YYDDMM.-T&HHMMSS..txt
+    -rw-r-----   1  IBMUSER  SYS1              0 Nov 17 14:51 test-D111117-T135004.txt
+
+
+### Question 1:
+
+Do you get what's going on here?
+
+### Question 2:
+
+What triggers the 'resetting' of the HHMMSS variable? Repeated writes to /tmp/test will not *all* generate
+unique files.
+
+### Question 3:
+
+What causes the mismatch in 'file time' (14:51) and 'file name time' (13:50:04)?
+
+
+I'll be reading your comments...
