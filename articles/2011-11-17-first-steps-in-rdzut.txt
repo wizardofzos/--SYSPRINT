@@ -1,0 +1,40 @@
+--- 
+title: First steps in RDZ:UT
+dataset: ZDEVOPS.RDZUT
+date: 17/11/2011
+membername: FIRST
+
+Being a mainframe addict for over 15 years now it was about time to start running z/OS privately.
+
+I know there are ways to be doing this the 'shady' way, by running some torrented CCKD
+files with the [Hercules](http://www.hercules-390.org/) emulator. However besided being illegal, it's no good when using
+it professionally. I've been there, and I've done that, but it was time to start doing things the proper way.
+
+So after spending quite some time finding an IBM Business Partner selling me the product at the lowest
+possible price I made the purchase of "Rational Developer for System Z" with the "Unit Test Feature".
+
+Long story short, this gave me a fully functional z/Arch emulator for an x86-64 system.
+
+Basically, I'm now running z/OS 1.11 right from my desktop. And let me tell you, it's *frigging Awesome*.
+
+On this website you will be able to gradually read up on my endeavors regarding my 'private' Mainframe. 
+
+For now, I will leave you with the remarkt I've got it up and running. And yes, with full TCP/IP in and(!) out.
+Stay tuned to read all about the upcoming projects "ofacebk", "otwttr", "zGit" and "zRedis"...
+
+There are still umpteen problems to tackle, for one buying this 'Private Mainframe' does not entitle you to a 
+"shop zSeries" account. This basically means I cannot download any ptfs or (and this might even be the biggest
+issue) get my hands on "the ported tools". 
+
+Seeing as I want to start on getting things like git and redis running on the z/OS system running here this is 
+somewhat of a 'showstopper'.
+
+Luckily however I got my good friend Greg looking for solutions to this issue so we might get rolling after all!
+
+Untill then,
+
+
+
+Kepe being proud of all the awesome things you do!
+
+
