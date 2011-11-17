@@ -1,11 +1,13 @@
-<h1><%= @path %></h1>
-<ul>
+<div id="titleBar">ZDEVOPS Archives</div><br />
+Browse the archives if you wish <br />
   <% if archives.length > 0 %>
-    <% for entry in archives %>
-      <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
-      </li>
+	  <% for entry in archives %>
+<ul class="menuline">
+		  <li class="menuSelect"><a href="<%= entry.path %>"><%= entry[:membername] %></a></li>
+		  <li class="menuShort"><%= entry[:dataset] %></li>
+		  <li class="menuLong"><%= entry.title %></li>
+	   </ul><br />
     <% end %>
-  <% end %>
-</ul>
+<% end %>
+
 
