@@ -1,5 +1,7 @@
 --- 
 title: Git Setup
+dataset: ZDEVOPS.HOWTO.GIT
+membername: GITSETUP
 date: 31/10/2011
 
 So in order to do some handy gitting I use the following aliasses given to me, free of charge by my good friend @nvie.

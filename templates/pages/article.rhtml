@@ -1,11 +1,8 @@
 <article class="post">
-  <header class='post-title'> 
-    <h1><%= title %></h1>
-  </header>
-
-  <section class="content">
+<h1><span class="protected">BROWSE</span>&nbsp;&nbsp;&nbsp;
+	<%= dataset %></h1>
+    <div id="titleBar"><%= title %></div>  
     <%= body %>
-  </section>
 
   <section class="comments">
     <% if @config[:disqus] %>

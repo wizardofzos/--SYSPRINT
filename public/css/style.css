@@ -1,0 +1,112 @@
+@font-face { font-family: "CPMono"; src: url('CPMono_v07_Plain.otf'); }
+
+body{background-color: #000000;
+     margin-left: auto;
+     margin-right: auto;
+     color: yellow;
+     padding: 0;
+     padding-left: 40px;
+     padding-right: 40px;
+     width: 1000px;
+     font-size: 20px;
+     font-family: "CPMono";
+}
+
+a{text-decoration: none;
+}
+
+
+a:hover{ color: yellow;}
+
+ol,ul,li {list-style: none; display: inline; padding: 0; margin: 0}
+#topMenuBar {padding-left: 0px;
+             width: 1000px;
+}
+#topMenuBar ul{ width: 1000px;
+                float: left;}
+
+
+#topMenuBar li { width: 16%;
+                 text-align: center;
+                 padding: 0;
+                 margin: 0;
+                 float: left;
+                 }
+
+#topMenuBar a{ color: #FFFFFF;
+               display: inline-block; /* make :first-letter selector work */
+}
+
+#topMenuBar a:first-letter{text-decoration: underline;}
+
+#breakerLine{ color: #0000EE;
+              float: left;
+}
+
+#titleBar{ color: #0000EE;
+           text-align: center;
+}
+
+.menuSelect {color: #FFFFFF;
+				 width: 300px;
+                 float: left;}
+.menuShort {color: #00FFFF;
+            width: 25%;
+            float: left;
+}
+.menuLong {color: #00FF00;}
+#commandLine{ position: absolute;
+              left: 0px;
+              bottom: 0px;
+              color: #FFFFFF;
+}
+
+
+h1{ color: #FFFFFF;
+    font-size: 18px;
+}
+p{ color: #00FF00;
+}
+
+a{ color: red;
+}
+
+.notification{border: 1px #FFFFFF solid;
+              background: #000000;
+              margin 10px;
+              color: yellow;
+              width: 864px;
+              position: absolute;
+              bottom: 90px;
+              left: 40px; 
+              text-align: center;
+}
+.protected{ color: #FF0000;}
+.white{ color:#FFFFFF;}
+
+input, #button, #comment{ background-color: #000000;
+       font-family: "CPMono";
+       font-size: 18px;
+       color: #00FFFF;
+       border: none;
+}
+
+#comment{ border: 1px solid green;;
+}
+input{ border-bottom: 1px solid #FFFFFF;
+}
+
+#button{ margin: 1px;
+        border: 1px solid #00FFFF;
+}
+
+#prevnext{ margin-bottom: 80px;
+           margin-top: 80px;
+           height: 200px;
+}
+
+#prev{ float: left; 
+}
+
+#next{ float: right;
+}

@@ -11,6 +11,10 @@ body {
 header, footer, section, article {
 	display: block;
 }
+.article{
+	position: absolute;
+	top: -50px;
+}
 #content {
 }
 #by {

@@ -1,6 +1,7 @@
---- 
 title: Things to come
 date: 30/10/2011
+dataset: ZDEVOPS.WEBLOG
+membername: UPNEXT
 
 Whoa there! Looks like you found my hide-out here on heroku.
 Congratulations! For the time being I most probably will be experimenting locally with this uber-awesome weblog thinggy called 'toto'.
