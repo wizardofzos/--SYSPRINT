@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-	<link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/github.min.css">	
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 	<title>
@@ -14,8 +13,12 @@
 			    //SYSPRINT DD *    <%= @path.capitalize.gsub(/[-]/, ' ') %>
 		<% end %>
 	</title>
+
   </head>
   <body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/static/js/jquery-1.6.4.min.js"><\/script>')</script>
   	<script type="text/javascript">
 
         var _gaq = _gaq || [];
@@ -33,9 +36,17 @@
 	<script type="text/javascript">
 		    hljs.initHighlightingOnLoad();
 	</script>
-		<h1>//<a href="http://sysprint.heroku.com">SYSPRINT</a> DD SYSOUT=*<br /></h1>
-	<br />
-	<br />	
+<div id="topMenuBar" class="white">
+       <ul>
+         <li><a href="#">Menu</a></li>
+         <li><a href="#">Utilities</a></li>
+         <li><a href="#">Compilers</a></li>
+         <li><a href="#">Options</a></li>
+         <li><a href="#">Status</a></li>
+         <li><a href="#">About Us</a></li>
+       </ul>
+     </div>
+
 	<section>
       <%= yield %> 
     </section>
