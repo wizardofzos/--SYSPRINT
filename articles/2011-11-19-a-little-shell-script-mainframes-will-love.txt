@@ -1,0 +1,22 @@
+--- 
+title: A little shell script mainframes will love
+dataset: ZDEVOPS.USS.BIN
+date: 19/11/2011
+membername: ZDYNLINK
+
+Suppose you were getting kinda sick of an ever growing 'applyPTF.out' file inside
+your WebSphere for z/OS filesystem (a zFS I hope).
+
+Suppose you wanted to have this file to have a new name every time you started your WAS.
+
+Furthermore, suppose you did't want to go about and change all your STC JCL.
+
+In that case I advise you to take a look at [zdynlink](https://github.com/wizardofzos/zdynlink) on my github page.
+
+Go ahead, install it, then run it against your applyPTF.out. 
+
+You'll be happy :)
+
+Special thanks to @bas_otten for coming up with a name for this 'tool' :)
+
+Sidenote : This is the first result of RD4ZUT running here at zdevops! Stay tuned for more mainframe awesomeness!
