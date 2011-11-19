@@ -14,7 +14,7 @@
 <ul class="menuline">
 		  <li class="menuSelect"><a href="<%= entry.path %>"><%= entry[:membername] %></a></li>
 		  <li class="menuShort"><%= entry[:dataset] %></li>
-		  <li class="menuLong"><%= entry.title %></li>
+		  <li class="menuLong"><%= entry.title[0,30] %></li>
 	   </ul><br />
     <% end %>
 <% end %>
