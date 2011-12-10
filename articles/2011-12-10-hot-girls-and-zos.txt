@@ -1,0 +1,22 @@
+--- 
+title: Hot Girls & z/OS
+dataset: ZDEVOPS.WEBLOG
+date: 10/12/2011
+membername: HOTGRLLS
+
+So I was asking myself who would still tweet about OS/390?
+I mean it's like tweeting about old stuff :)
+
+Stuff people using twitter are not very likely to tweet about.
+
+To my great suprise I found a lot of tweets about OS/390 by
+people beyond my imagination. Take Kristle Juntunen for example.
+
+She doesn't look like your average Database Administrator, yet she tweets
+about a book regarding performance tweaks on DB2 for OS/390.
+
+<http://twitter.com/#!/Kristlefmj/status/145511718884360193>
+
+My conclusion : Mostly Sexy Babes tweet about OS/390
+
+(check it out for yourself at <http://twitter.com/#!/search/OS%2F390>)
